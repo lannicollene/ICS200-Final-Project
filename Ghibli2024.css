@@ -7,7 +7,9 @@
 .navigation {
   overflow:hidden;
   background-color: #175F60;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
 }
 /*#title-bar {
   position: fixed;
@@ -27,6 +29,7 @@
   text-decoration: none;
   font-size: 20px;
   display: block;
+  z-index: 99;
 }
 .navigation a.icon {
   background: black;
@@ -39,7 +42,6 @@
   width: 55px;
   text-justify: center;
   text-align: center;
-  z-index: 99;
 }
 .navigation a:hover {
   background-color:#175F60;
