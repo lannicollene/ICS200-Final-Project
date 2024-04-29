@@ -39,7 +39,7 @@
   width: 55px;
   text-justify: center;
   text-align: center;
-  z-index: 1;
+  z-index: 99;
 }
 .navigation a:hover {
   background-color:#175F60;
