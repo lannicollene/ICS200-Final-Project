@@ -80,24 +80,20 @@ button {
   border-radius: 10px;
 }
 
-/*
-.block-img {
-  display:flex;
-  flex-wrap: wrap;
-  overflow: auto;
-  height: auto;
-  margin: 10px;
-  background-size: cover;
-  object-fit: cover;
-  object-position: center;
-  justify-content: center;
+#student {
+  width: 100%;
+  height: 50px;
+  background-color: #fcb9007e;
+  color: #11494a;
+  opacity: 50%;
+  margin: 5px
+  position: absolute;
+  bottom: 0;
 }
-.block-img img {
-  margin: 15px;
-  border-radius: 10px;
-}
-.block-img img:hover {
-  cursor: pointer;
-  transform: scale(1.15);
-  transform: all 2.0s ease;
+
+#student p {
+  margin-top: 20px;
+  padding-top: 12px;
+  text-align: right;
+  font-size: 12px;
 }
