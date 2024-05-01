@@ -15,9 +15,10 @@ let random_images_array = [{
 ];
 
 function getRandomImage(imgAr, path) {
-  path = path || 'img/';
+  path = path || 'images/';
   let num = Math.floor(Math.random() * imgAr.length);
   let img = path + imgAr[num].img;
+  console.log()
   let imgStr = `<a href='${imgAr[num].link}'><img src="${img}" alt="" height="400" border="0" /></a>`;
   document.querySelector('#img-container').innerHTML = imgStr;
 }
