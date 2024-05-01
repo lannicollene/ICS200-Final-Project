@@ -155,7 +155,9 @@ h1 {
   font-style: italic;
 }
 .date-time {
-  display: inline;
+  display: inline-flex;
+  position: relative;
+  flex-wrap: wrap;
   background:#33333399;
   border: 1px solid;
   border-radius: 0.2rem;
