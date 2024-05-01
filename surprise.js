@@ -24,5 +24,5 @@ function getRandomImage(imgAr, path) {
 }
 
 document.getElementById('btn').addEventListener('click', () => {
-  getRandomImage(random_images_array, 'img/image-container')
+  getRandomImage(random_images_array, 'img/img-container')
 })
