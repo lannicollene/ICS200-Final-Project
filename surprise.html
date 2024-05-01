@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surprise Me! </title>
+  <link rel="icon" type="image/x-icon" href="images/dust-bunnies-icon.gif">
+
+  <link rel="stylesheet" href="surprise.css">
+</head>
+
+<body>
+  <div id="title-bar" class="navigation">
+    <a href="Ghibli2024.html" class="active"><img src="images/Logo-nav.svg" alt="Studio Ghibli Festival 2024" height="50" width="auto"></a>
+      
+    <div id="myLinks">
+      <a href="#Home">April 2024 Line-up</a>
+      <a href="April.html">April 2024 Line-up</a>
+      <a href="May.html">May 2024 Line-up</a>
+      <a href="June.html">June 2024 Line-up</a>
+      <a href="July.html">July 2024 Line-up</a>
+      <a href="August.html">August 2024 Line-up</a>
+      <a href="September.html">September 2024 Line-up</a>
+      <a href="October.html">October 2024 Line-up</a>
+      <a href="November.html">November 2024 Line-up</a>
+      <a href="December.html">December 2024 Line-up</a>
+      <hr>
+      <p>Can't decide which movie to check out??</p>
+      <a href="surprise.html">SURPRISE ME!</a>
+      <hr>
+      <p>For more information:</p>
+      <a href="https://www.regmovies.com/theatres/regal-prince-kuhio-1652?date=04-28-2024">Regal Movies: Prince Kuhio Plaza</a>
+      <a href="https://gkids.com/ghiblifest/">GKIDS: 2024 Ghibli Fest</a>
+
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i>Line Up!</i>
+    </a>
+  </div>
+  
+  <div id="Home" class="container">
+    
+    <div id="img-container"></div>
+      
+    <div id="btn-container">
+      <button id="btn">SURPRISE ME!</button>
+    </div>
+
+  </div>
+
+  
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+  
+<script src="surprise.js"></script>
+
+</body>
+</html>
