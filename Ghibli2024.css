@@ -200,3 +200,21 @@ h2 {
   font-style: italic;
   font-weight: 50;
 }
+
+#student {
+  width: 100%;
+  height: 50px;
+  background-color: #fcb9007e;
+  color: #11494a;
+  opacity: 50%;
+  margin: 5px
+  position: absolute;
+  bottom: 0;
+}
+
+#student p {
+  margin-top: 20px;
+  padding-top: 12px;
+  text-align: right;
+  font-size: 12px;
+}
