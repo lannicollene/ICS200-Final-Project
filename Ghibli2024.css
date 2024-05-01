@@ -193,7 +193,7 @@ h1 {
   color: #11494a;
   opacity: 50%;
   margin: 5px;
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
 
