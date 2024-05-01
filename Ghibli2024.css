@@ -1,6 +1,8 @@
- * {
+
+* {
   font-family: 'Montserrat', sans-serif;
  }
+
  /* ----------*/
  /*navigation styling*/
  /* ----------*/
@@ -11,14 +13,7 @@
   width: 100%;
   z-index: 99;
 }
-/*#title-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 70px;
-  z-index: 99;
-}*/
+
 .navigation #myLinks {
   display: none;
   text-align: center;
@@ -28,7 +23,6 @@
   padding: 10px 14px;
   text-decoration: none;
   font-size: 20px;
-  top: 8px;
   display: block;
   z-index: 99;
 }
@@ -106,20 +100,11 @@ h1 {
   transform: all 2.0s ease;
 }
 
-/*span.title{
-  max-height: 400px;
-  text-wrap: wrap;
-  writing-mode: vertical-rl;
-  background-color: #fcb9007e;
-  color: black;
-  padding: 5px;
-}*/
-
 /* ----------*/
 /*content styling*/
 /* ----------*/
-h2 {
-  margin-bottom: 10px;
+.container h2 {
+  bottom: 10px;
   text-align: center;
 }
 .flex-box {
