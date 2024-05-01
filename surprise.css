@@ -6,7 +6,7 @@
  }
 
  /* ----------*/
- /*navigation*/
+ /*navigation styling*/
  /* ----------*/
 .navigation {
   overflow:hidden;
@@ -47,10 +47,7 @@
   color: white;
 } 
 
-/* ----------*/
- /*surprise section*/
- /* ----------*/
-#img-container {
+#image-container {
   background-color: #175f6050;
   padding: 40px;
   margin-left: auto;
@@ -83,3 +80,24 @@ button {
   border-radius: 10px;
 }
 
+/*
+.block-img {
+  display:flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: auto;
+  margin: 10px;
+  background-size: cover;
+  object-fit: cover;
+  object-position: center;
+  justify-content: center;
+}
+.block-img img {
+  margin: 15px;
+  border-radius: 10px;
+}
+.block-img img:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+  transform: all 2.0s ease;
+}
