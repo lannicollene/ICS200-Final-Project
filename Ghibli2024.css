@@ -1,6 +1,7 @@
 
 * {
   font-family: 'Montserrat', sans-serif;
+  scrollbar-color: #175F60;
  }
 
  /* ----------*/
@@ -17,6 +18,11 @@
 .navigation #myLinks {
   display: none;
   text-align: center;
+}
+.navigation p {
+  font-size: 9px;
+  margin: 0;
+  padding: 0;
 }
 .navigation a {
   color: #fcb900;
@@ -82,7 +88,7 @@ h1 {
 .block-img {
   display:flex;
   flex-wrap: wrap;
-  overflow: auto;
+  overflow: hidden;
   height: auto;
   margin: 10px;
   background-size: cover;
