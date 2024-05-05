@@ -19,6 +19,11 @@
   display: none;
   text-align: center;
 }
+.navigation p {
+  font-size: 9px;
+  margin: 0;
+  padding: 0;
+}
 .navigation a {
   color: #fcb900;
   padding: 10px 14px;
